@@ -4,7 +4,7 @@
   "name": "re3D Gigabot 4 0.4 nozzle",
   "from": "system",
   "instantiation": "true",
-  "inherits": "fdm_re3D_common",
+  "inherits": "fdm_toolchanger_common",
   "printer_model": "re3D Gigabot 4",
   "nozzle_diameter": [
     "0.4"
