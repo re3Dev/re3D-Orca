@@ -1,6 +1,6 @@
 {
     "type": "filament",
-    "name": "fdm_filament_pet",
+    "name": "fdm_filament_pc",
     "from": "system",
     "instantiation": "false",
     "inherits": "fdm_filament_common",
@@ -41,7 +41,7 @@
         "25"
     ],
     "filament_type": [
-        "PETG"
+        "PC"
     ],
     "filament_density": [
         "1.27"

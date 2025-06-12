@@ -1,8 +1,8 @@
 {
     "type": "machine_model",
-    "name": "re3D Gigabot 4",
-    "model_id": "GB4",
-    "nozzle_diameter": "0.4",
+    "name": "re3D Gigabot X2 XLT",
+    "model_id": "GBX2XLT",
+    "nozzle_diameter": "1.75",
     "machine_tech": "FFF",
     "family": "re3D",
     "bed_model": "",
