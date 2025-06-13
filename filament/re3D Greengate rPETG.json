@@ -2,7 +2,7 @@
     "type": "filament",
 	"filament_id": "GFG99",
     "setting_id": "GFSG99",
-    "name": "re3D Greengate rPETG",
+    "name": "RE3D Greengate rPETG",
     "from": "system",
     "instantiation": "true",
     "inherits": "fdm_filament_pet",
@@ -10,8 +10,8 @@
         "; filament start gcode\n"
     ],
     "compatible_printers": [
-      "re3D Gigabot X2 1.75 nozzle",
-      "re3D Gigabot X2 XLT 1.75 nozzle",
-      "re3D Terabot X2 1.75 nozzle"
+      "RE3D Gigabot X2 1.75 nozzle",
+      "RE3D Gigabot X2 XLT 1.75 nozzle",
+      "RE3D Terabot X2 1.75 nozzle"
     ]
 }
