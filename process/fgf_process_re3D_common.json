@@ -1,6 +1,6 @@
 {
     "type": "process",
-    "name": "fgf_process_re3D_1.75_common",
+    "name": "fgf_process_re3D_common",
     "from": "system",
     "instantiation": "false",
     "inherits": "fdm_process_common",

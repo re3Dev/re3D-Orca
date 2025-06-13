@@ -6,8 +6,8 @@
     "instantiation": "true",
     "inherits": "fdm_process_re3D_0.8_common",
     "bottom_shell_layers": "4",
-    "top_shell_layers": "5",
-    "layer_height": "0.15",
+    "top_shell_layers": "4",
+    "layer_height": "0.28",
 	  "compatible_printers": [
         "re3D Gigabot 4 0.8 nozzle",
         "re3D Gigabot 4 XLT 0.8 nozzle",
