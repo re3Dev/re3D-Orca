@@ -2,7 +2,7 @@
     "type": "filament",
 	"filament_id": "GFG99",
     "setting_id": "GFSG99",
-    "name": "RE3D PC",
+    "name": "re3D PC",
     "from": "system",
     "instantiation": "true",
     "inherits": "fdm_filament_pc",
@@ -10,12 +10,12 @@
         "; filament start gcode\n"
     ],
     "compatible_printers": [
-	  "RE3D Gigabot 4 0.4 nozzle",
-      "RE3D Gigabot 4 XLT 0.4 nozzle",
-      "RE3D Terabot 4 0.4 nozzle",
-      "RE3D Gigabot 4 0.8 nozzle",
-      "RE3D Gigabot 4 XLT 0.8 nozzle",
-      "RE3D Terabot 4 0.8 nozzle"
+	  "re3D Gigabot 4 0.4 nozzle",
+      "re3D Gigabot 4 XLT 0.4 nozzle",
+      "re3D Terabot 4 0.4 nozzle",
+      "re3D Gigabot 4 0.8 nozzle",
+      "re3D Gigabot 4 XLT 0.8 nozzle",
+      "re3D Terabot 4 0.8 nozzle"
 
     ]
 }

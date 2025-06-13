@@ -1,6 +1,6 @@
 {
   "type": "machine",
-  "name": "fdm_RE3D_common",
+  "name": "fdm_re3D_common",
   "from": "system",
   "instantiation": "false",
   "inherits": "fdm_machine_common",
