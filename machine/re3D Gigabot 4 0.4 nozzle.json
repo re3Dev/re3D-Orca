@@ -20,9 +20,6 @@
   "printable_height": "590",
   "nozzle_type": "undefine",
   "auxiliary_fan": "0",
-  "deretraction_speed": [
-    "70"
-],
 
 "printer_variant": "0.4",
 "default_print_profile": "0.28mm Standard @re3D fdm 0.4",
