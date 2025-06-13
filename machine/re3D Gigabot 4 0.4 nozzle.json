@@ -7,6 +7,7 @@
   "inherits": "fdm_re3D_common",
   "printer_model": "re3D Gigabot 4",
   "nozzle_diameter": [
+    "0.4",
     "0.4"
   ],
   "printable_area": [
