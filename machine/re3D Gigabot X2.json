@@ -1,12 +1,12 @@
 {
     "type": "machine_model",
-    "name": "re3D Gigabot X2",
+    "name": "RE3D Gigabot X2",
     "model_id": "GBX2",
     "nozzle_diameter": "1.75",
     "machine_tech": "FFF",
-    "family": "re3D",
+    "family": "RE3D",
     "bed_model": "",
     "bed_texture": "Gigabot 4_buildplate_texture.png",
     "hotend_model": "",
-    "default_materials": "re3D Generic PLA;re3D Generic PETG;re3D Generic TPU;"
+    "default_materials": "RE3D Generic PLA;RE3D Generic PETG;RE3D Generic TPU;"
 }
