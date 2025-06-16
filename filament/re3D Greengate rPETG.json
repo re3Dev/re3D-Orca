@@ -7,7 +7,7 @@
     "instantiation": "true",
     "inherits": "fdm_filament_pet",
     "filament_start_gcode": [
-        "; filament start gcode\n"
+        "M190 S75\nT0\nM104 S220\nT1\nM104 S210\nT2\nM104 S200\nT0\nM109 S220\nT1\nM109 S210\nT2\nM109 S200"
     ],
     "compatible_printers": [
       "re3D Gigabot X2 1.75 nozzle",
