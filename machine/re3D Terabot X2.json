@@ -1,12 +1,12 @@
 {
     "type": "machine_model",
-    "name": "RE3D Terabot X2",
+    "name": "re3D Terabot X2",
     "model_id": "TBX2",
     "nozzle_diameter": "1.75",
     "machine_tech": "FFF",
-    "family": "RE3D",
+    "family": "re3D",
     "bed_model": "",
     "bed_texture": "Gigabot 4_buildplate_texture.png",
     "hotend_model": "",
-    "default_materials": "RE3D Generic PLA;RE3D Generic PETG;RE3D Generic TPU;"
+    "default_materials": "re3D Generic PLA;re3D Generic PETG;re3D Generic TPU;"
 }

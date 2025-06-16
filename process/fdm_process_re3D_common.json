@@ -1,6 +1,6 @@
 {
     "type": "process",
-    "name": "fdm_process_RE3D_common",
+    "name": "fdm_process_re3D_common",
     "from": "system",
     "instantiation": "false",
     "inherits": "fdm_process_common",
@@ -102,8 +102,8 @@
     "xy_hole_compensation": "0",
     "xy_contour_compensation": "0",
     "compatible_printers": [
-	  "RE3D Gigabot 4 0.4 nozzle",
-      "RE3D Gigabot 4 XLT 0.4 nozzle",
-      "RE3D Terabot 4 0.4 nozzle"
+	  "re3D Gigabot 4 0.4 nozzle",
+      "re3D Gigabot 4 XLT 0.4 nozzle",
+      "re3D Terabot 4 0.4 nozzle"
     ]
 }
