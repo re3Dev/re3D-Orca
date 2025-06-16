@@ -54,6 +54,8 @@
     "print_settings_id": "",
     "raft_layers": "0",
     "seam_position": "aligned",
+    "seam_gap": "0",
+    "staggered_inner_seams": "1",
     "skirt_distance": "2",
     "skirt_height": "1",
     "skirt_loops": "0",
