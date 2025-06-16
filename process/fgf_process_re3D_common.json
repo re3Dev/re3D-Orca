@@ -12,7 +12,7 @@
     "bottom_shell_thickness": "0",
     "bridge_flow": "0.95",
     "bridge_speed": "40",
-    "brim_type": "no-brim",
+    "brim_type": "none",
     "brim_width": "5",
     "brim_object_gap": "0.1",
     "compatible_printers_condition": "",
