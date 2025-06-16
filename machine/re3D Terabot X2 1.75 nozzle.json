@@ -16,52 +16,7 @@
       "0x908"
     ],
     "printable_height": "830",
-    "nozzle_type": "undefine",
 
-    "machine_max_acceleration_e": [
-        "5000",
-        "5000"
-    ],
-    "machine_max_acceleration_extruding": [
-        "5000",
-        "20000"
-    ],
-    "machine_max_acceleration_retracting": [
-        "5000",
-        "5000"
-    ],
-    "machine_max_acceleration_travel": [
-        "20000",
-        "20000"
-    ],
-    "machine_max_acceleration_x": [
-        "5000",
-        "20000"
-    ],
-    "machine_max_acceleration_y": [
-        "5000",
-        "20000"
-    ],
-    "machine_max_acceleration_z": [
-        "5000",
-        "200"
-    ],
-    "machine_max_jerk_e": [
-        "2.5",
-        "2.5"
-    ],
-    "machine_max_jerk_x": [
-        "9",
-        "9"
-    ],
-    "machine_max_jerk_y": [
-        "9",
-        "9"
-    ],
-    "machine_max_jerk_z": [
-        "0.2",
-        "0.4"
-    ],
     "machine_max_speed_e": [
         "20",
         "25"
