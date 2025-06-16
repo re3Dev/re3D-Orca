@@ -15,7 +15,7 @@
   "machine_max_speed_e": ["60", "60"],
   "machine_max_speed_x": ["500", "200"],
   "machine_max_speed_y": ["500", "200"],
-  "machine_max_speed_z": ["12", "12"],
+  "machine_max_speed_z": ["20", "12"],
   "machine_max_jerk_e": ["2.5", "2.5"],
   "machine_max_jerk_x": ["9", "9"],
   "machine_max_jerk_y": ["9", "9"],

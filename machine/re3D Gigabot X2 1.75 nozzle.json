@@ -17,29 +17,11 @@
     ],
     "printable_height": "470",
 
-    "machine_max_speed_e": [
-        "20",
-        "25"
-    ],
-    "machine_max_speed_x": [
-        "500",
-        "200"
-    ],
-    "machine_max_speed_y": [
-        "500",
-        "200"
-    ],
-    "machine_max_speed_z": [
-        "20",
-        "12"
-    ],
     "max_layer_height": [
         "1.4"
     ],
     "min_layer_height": [
         "0.4"
     ],
-    "printer_variant": "1.75",
-
-    "default_print_profile": "1.0mm Standard @re3D fgf 1.75"
+    "printer_variant": "1.75"
 }
