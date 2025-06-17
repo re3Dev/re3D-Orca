@@ -22,7 +22,7 @@
     "hot_plate_temp_initial_layer" : [
         "110"
     ],
-    "textured_plate_temp_initial_layer" : [
+    "hot_plate_temp" : [
         "110"
     ],
     "filament_flow_ratio": [
