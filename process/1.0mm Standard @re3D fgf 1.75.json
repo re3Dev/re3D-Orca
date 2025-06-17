@@ -6,8 +6,8 @@
     "inherits": "fgf_process_re3D_common",
     "instantiation": "true",
     "layer_height": "1.0",
-    "bottom_shell_layers": "3",
-    "top_shell_layers": "4",
+    "bottom_shell_layers": "2",
+    "top_shell_layers": "5",
 	  "compatible_printers": [
 	    "re3D Gigabot X2 1.75 nozzle",
       "re3D Gigabot X2 XLT 1.75 nozzle",

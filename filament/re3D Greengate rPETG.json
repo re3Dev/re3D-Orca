@@ -6,6 +6,32 @@
     "from": "system",
     "instantiation": "true",
     "inherits": "fdm_filament_pet",
+
+    "nozzle_temperature_initial_layer": [
+        "255"
+    ],
+    "nozzle_temperature": [
+        "255"
+    ],
+    "nozzle_temperature_range_low": [
+        "220"
+    ],
+    "nozzle_temperature_range_high": [
+        "260"
+    ],
+    "hot_plate_temp_initial_layer" : [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer" : [
+        "80"
+    ],
+    "filament_flow_ratio": [
+        "1.02"
+    ],
+    "enable_pressure_advance": [
+        "0"
+    ],
+
     "filament_start_gcode": [
         "M190 S75\nT0\nM104 S220\nT1\nM104 S210\nT2\nM104 S200\nT0\nM109 S220\nT1\nM109 S210\nT2\nM109 S200"
     ],
