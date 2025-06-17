@@ -2,7 +2,7 @@
     "type": "filament",
 	"filament_id": "GFG99",
     "setting_id": "GFSG99",
-    "name": "ReStore rPP Test",
+    "name": "re3D rPP",
     "from": "system",
     "instantiation": "true",
     "inherits": "fdm_filament_pet",
