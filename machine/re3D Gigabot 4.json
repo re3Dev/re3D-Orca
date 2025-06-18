@@ -8,5 +8,5 @@
     "bed_model": "GB4-BUILDPLATE.stl",
     "bed_texture": "Gigabot 4_buildplate_texture.png",
     "hotend_model": "",
-    "default_materials": "re3D Generic PLA;re3D Generic PETG;re3D Generic TPU;"
+    "default_materials": "re3D PLA;re3D PETG;re3D PC;"
 }
