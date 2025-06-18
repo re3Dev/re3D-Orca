@@ -5,8 +5,8 @@
     "nozzle_diameter": "0.4;0.8",
     "machine_tech": "FFF",
     "family": "re3D",
-    "bed_model": "",
+    "bed_model": "TB4-BUILDPLATE.stl",
     "bed_texture": "Gigabot 4_buildplate_texture.png",
-    "hotend_model": "TB4-BUILDPLATE.stl",
+    "hotend_model": "",
     "default_materials": "re3D Generic PLA;re3D Generic PETG;re3D Generic TPU;"
 }
