@@ -7,6 +7,6 @@
     "family": "re3D",
     "bed_model": "",
     "bed_texture": "Gigabot 4_buildplate_texture.png",
-    "hotend_model": "",
+    "hotend_model": "GB4-XLT-BUILDPLATE.stl",
     "default_materials": "re3D Generic PLA;re3D Generic PETG;re3D Generic TPU;"
 }
