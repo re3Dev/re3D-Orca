@@ -34,6 +34,9 @@
     "slow_down_layer_time":[
         "60"
     ],
+    "slow_down_min_speed":[
+        "10"
+    ],
     "filament_start_gcode": [
         "M190 S110\nM104 S185 T0\nM104 S185 T1\nM104 S185 T2\nM109 S185 T0\nM109 S185 T1\nM109 S185 T2"
     ],

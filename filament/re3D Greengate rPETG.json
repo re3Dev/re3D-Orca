@@ -31,9 +31,15 @@
     "enable_pressure_advance": [
         "0"
     ],
+    "slow_down_layer_time":[
+        "20"
+    ],
+    "slow_down_min_speed":[
+        "25"
+    ],
 
     "filament_start_gcode": [
-        "M190 S75\nT0\nM104 S220\nT1\nM104 S210\nT2\nM104 S200\nT0\nM109 S220\nT1\nM109 S210\nT2\nM109 S200"
+        "M190 S75\nM104 S220 T0\nM104 S210 T1\nM104 S200 T2\nM109 S220 T0\nM109 S210 T1\nM109 S200 T2"
     ],
     "compatible_printers": [
       "re3D Gigabot X2 1.75 nozzle",

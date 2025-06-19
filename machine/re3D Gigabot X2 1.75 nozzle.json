@@ -16,7 +16,8 @@
       "0x593"
     ],
     "printable_height": "470",
-
+    "extruder_clearance_height_to_rod": "220",
+    "extruder_clearance_height_to_lid": "630",
     "max_layer_height": [
         "1.4"
     ],
