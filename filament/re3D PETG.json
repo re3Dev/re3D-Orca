@@ -15,6 +15,18 @@
     "pressure_advance": [
         "0.205"
     ],
+    "hot_plate_temp": [
+        "70"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "70"
+    ],
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
     "compatible_printers": [
 	  "re3D Gigabot 4 0.4 nozzle",
       "re3D Gigabot 4 XLT 0.4 nozzle",
