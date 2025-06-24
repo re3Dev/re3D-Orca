@@ -115,6 +115,7 @@
     "slow_down_layers": "2",
     "small_perimeter_speed": "45",
     "small_perimeter_threshold": "45",
+    "exclude_object": "1",
     "compatible_printers": [
 	    "re3D Gigabot 4 0.4 nozzle",
       "re3D Gigabot 4 XLT 0.4 nozzle",
