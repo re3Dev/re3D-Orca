@@ -42,7 +42,7 @@
   "deretraction_speed": ["200"],
   "z_hop_types": "Normal Lift",
   "silent_mode": "0",
-  "single_extruder_multi_material": "0",
+  "single_extruder_multi_material": ["0"],
   "machine_tool_change_time": ["30"],
   "change_filament_gcode": "",
   "machine_pause_gcode": "PAUSE",
