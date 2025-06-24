@@ -40,6 +40,9 @@
     "fan_cooling_layer_time": [
         "30"
     ],
+    "slow_down_layer_time":[
+        "2"
+    ],
     "filament_max_volumetric_speed": [
         "12"
     ],
@@ -68,9 +71,9 @@
         "60"
     ],
     "overhang_fan_threshold":[
-        "25"
+        "25%"
     ],
-    "suport_material_interface_fan_speed":[
+    "support_material_interface_fan_speed":[
         "100"
     ],
     "nozzle_temperature": [
