@@ -6,9 +6,6 @@
     "from": "system",
     "instantiation": "true",
     "inherits": "fdm_filament_pc",
-    "filament_start_gcode": [
-        "; filament start gcode\n"
-    ],
     "compatible_printers": [
 	  "re3D Gigabot 4 0.4 nozzle",
       "re3D Gigabot 4 XLT 0.4 nozzle",
