@@ -16,16 +16,16 @@
 
     "top_shell_layers": "4",
     "top_shell_thickness": "0.6",
-    "bottom_shell_layers": "4",
+    "bottom_shell_layers": "3",
 
-    "line_width": "0.48",
-    "outer_wall_line_width": "0.48",
-    "inner_wall_line_width": "0.48",
+    "line_width": "0.45",
+    "outer_wall_line_width": "0.45",
+    "inner_wall_line_width": "0.45",
     "initial_layer_line_width": "0.6",
-    "sparse_infill_line_width": "0.48",
-    "internal_solid_infill_line_width": "0.48",
-    "top_surface_line_width": "0.48",
-    "support_line_width": "0.48",
+    "sparse_infill_line_width": "0.45",
+    "internal_solid_infill_line_width": "0.45",
+    "top_surface_line_width": "0.45",
+    "support_line_width": "0.45",
 
 
     "overhang_1_4_speed": "45",
