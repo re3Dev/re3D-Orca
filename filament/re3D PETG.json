@@ -7,25 +7,13 @@
     "instantiation": "true",
     "inherits": "fdm_filament_pet",
     "filament_start_gcode": [
-        "; Filament gcode\nM190 S70\nT0\nM109 S250\nBED_MESH_CALIBRATE PROFILE='default'\nG92 E0\nG1 E11.92 F2000"
+        "; Filament gcode"
     ],
     "filament_end_gcode": [
-        "; filament end gcode \nG1 X205 F16000\nG1 Y10 F16000\nM104 S180\nG92 E0\nG1 E-12 F1000\nG4 S4\nG1 E11 F1000\nG1 E-11 F1000\nG1 E11 F1000\nG1 E-11 F1000\n\nM400"
+        "; filament end gcode"
     ],
-    "pressure_advance": [
-        "0.205"
-    ],
-    "hot_plate_temp": [
-        "70"
-    ],
-    "hot_plate_temp_initial_layer": [
-        "70"
-    ],
-    "nozzle_temperature": [
-        "250"
-    ],
-    "nozzle_temperature_initial_layer": [
-        "250"
+    "filament_retraction_length":[
+        "1"
     ],
     "compatible_printers": [
 	  "re3D Gigabot 4 0.4 nozzle",
