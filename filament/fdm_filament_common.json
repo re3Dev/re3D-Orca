@@ -146,5 +146,26 @@
     ],
     "temperature_vitrification": [
         "100"
+    ],
+    "filament_loading_speed_start":[
+        "0"
+    ],
+    "filament_loading_speed":[
+        "0"
+    ],
+    "filament_unloading_speed_start":[
+        "0"
+    ],
+    "filament_unloading_speed":[
+        "0"
+    ],
+    "filament_cooling_moves":[
+        "0"
+    ],
+    "filament_cooling_intial_speed":[
+        "0"
+    ],
+    "filament_cooling_final_speed":[
+        "0"
     ]
 }

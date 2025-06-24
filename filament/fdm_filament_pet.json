@@ -28,26 +28,11 @@
     "fan_min_speed": [
         "80"
     ],
-    "filament_cooling_final_speed": [
-        "0"
-    ],
-    "filament_cooling_initial_speed": [
-        "0"
-    ],
-    "filament_cooling_moves": [
-        "0"
-    ],
     "filament_diameter": [
         "2.85"
     ],
     "filament_flow_ratio": [
         "0.91"
-    ],
-    "filament_loading_speed": [
-        "0"
-    ],
-    "filament_loading_speed_start": [
-        "0"
     ],
     "filament_max_volumetric_speed": [
         "9.5"
@@ -57,12 +42,6 @@
     ],
     "filament_type": [
         "PETG"
-    ],
-    "filament_unloading_speed": [
-        "0"
-    ],
-    "filament_unloading_speed_start": [
-        "0"
     ],
     "hot_plate_temp": [
         "70"
