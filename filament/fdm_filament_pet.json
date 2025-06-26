@@ -4,89 +4,77 @@
     "from": "system",
     "instantiation": "false",
     "inherits": "fdm_filament_common",
-    "close_fan_the_first_x_layers": [
-        "2"
+    "filament_density":[
+        "1.27"
     ],
-    "enable_overhang_bridge_fan": [
+    "filament_cost":[
         "0"
     ],
-    "enable_pressure_advance": [
+    "temperature_vitrification":[
+        "70"
+    ],
+    "close_fan_the_first_x_layers": [
+        "3"
+    ],
+    "enable_overhang_bridge_fan": [
         "1"
     ],
     "fan_cooling_layer_time": [
-        "10"
+        "30"
     ],
     "fan_max_speed": [
-        "70"
+        "100"
     ],
     "fan_min_speed": [
-        "70"
-    ],
-    "filament_cooling_final_speed": [
-        "0"
-    ],
-    "filament_cooling_initial_speed": [
-        "0"
-    ],
-    "filament_cooling_moves": [
-        "0"
+        "80"
     ],
     "filament_diameter": [
         "2.85"
     ],
     "filament_flow_ratio": [
-        "0.99"
-    ],
-    "filament_loading_speed": [
-        "0"
-    ],
-    "filament_loading_speed_start": [
-        "0"
+        "0.91"
     ],
     "filament_max_volumetric_speed": [
-        "24"
+        "9.5"
     ],
     "filament_minimal_purge_on_wipe_tower": [
-        "0"
+        "15"
     ],
     "filament_type": [
         "PETG"
     ],
-    "filament_unloading_speed": [
-        "0"
-    ],
-    "filament_unloading_speed_start": [
-        "0"
-    ],
     "hot_plate_temp": [
-        "75"
+        "70"
     ],
     "hot_plate_temp_initial_layer": [
-        "75"
+        "70"
     ],
     "nozzle_temperature": [
-        "265"
+        "250"
     ],
     "nozzle_temperature_initial_layer": [
-        "265"
+        "250"
     ],
     "nozzle_temperature_range_low": [
         "230"
     ],
+    "nozzle_temperature_range_high":[
+        "250"
+    ],
     "overhang_fan_threshold": [
-        "50%"
+        "95%"
     ],
     "pressure_advance": [
         "0.205"
     ],
     "reduce_fan_stop_start_freq": [
-        "0"
+        "1"
     ],
     "slow_down_layer_time": [
-        "10"
+        "8"
     ],
     "slow_down_min_speed": [
-        "25"
+        "10"
     ],
     "support_material_interface_fan_speed": [
         "100"

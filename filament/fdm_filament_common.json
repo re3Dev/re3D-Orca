@@ -69,6 +69,12 @@
     "filament_minimal_purge_on_wipe_tower": [
         "15"
     ],
+    "filament_multitool_ramming_volume":[
+        "15"
+    ],
+    "filament_multitool_ramming_flow":[
+        "15"
+    ],
     "filament_retraction_minimum_travel": [
         "nil"
     ],
@@ -140,5 +146,26 @@
     ],
     "temperature_vitrification": [
         "100"
+    ],
+    "filament_loading_speed_start":[
+        "0"
+    ],
+    "filament_loading_speed":[
+        "0"
+    ],
+    "filament_unloading_speed_start":[
+        "0"
+    ],
+    "filament_unloading_speed":[
+        "0"
+    ],
+    "filament_cooling_moves":[
+        "0"
+    ],
+    "filament_cooling_initial_speed":[
+        "0"
+    ],
+    "filament_cooling_final_speed":[
+        "0"
     ]
 }
