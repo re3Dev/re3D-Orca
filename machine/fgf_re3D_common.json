@@ -24,10 +24,12 @@
   "machine_min_travel_rate": ["0", "0"],
   "max_layer_height": ["2.25"],
   "min_layer_height": ["0.3"],
-  "extruder_clearance_radius": "55",
+  "extruder_clearance_radius": "70",
   "printer_settings_id": "",
   "printer_technology": "FFF",
 
+  "purge_in_prime_tower": "0",
+  "enable_filament_ramming":"0",
   "retraction_minimum_travel": ["1"],
   "retract_before_wipe": ["70%"],
   "retract_when_changing_layer": ["1"],
