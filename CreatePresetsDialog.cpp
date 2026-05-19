@@ -55,7 +55,7 @@ namespace GUI {
      "Justmaker",             "Keene Village Plastics",  "Kexcelled",              "LDO",                    "MakerBot",
      "MatterHackers",         "MIKA3D",                  "NinjaTek",               "Nobufil",                "Novamaker",
      "OVERTURE",              "OVVNYXE",                 "Polymaker",              "Priline",                "Printed Solid",
-     "Protopasta",            "Prusament",               "Push Plastic",           "R3D",                    "re3D"
+    "Protopasta",            "Prusament",               "Push Plastic",           "R3D",                    "re3D",
      "Re-pet3D",              "Recreus",                 "Regen",                  "RatRig",                 "Sain SMART",             
      "SliceWorx",             "Snapmaker",               "SnoLabs",                "Spectrum",               "SUNLU",                  
      "TTYT3D",                "Tianse",                  "UltiMaker",              "Valment",                "Verbatim",               
@@ -74,7 +74,7 @@ static const std::vector<std::string> printer_vendors =
      "FLSun",              "FlyingBear",         "Folgertech",         "Geeetech",           "Ginger Additive",
      "InfiMech",           "Kingroon",           "Lulzbot",            "MagicMaker",         "Mellow",
      "Orca Arena Printer", "Peopoly",            "Positron 3D",        "Prusa",              "Qidi",
-     "Raise3D",            "RatRig",             "re3D"                "RolohaunDesign",     "SecKit",             
+    "Raise3D",            "RatRig",             "re3D",               "RolohaunDesign",     "SecKit",             
      "Snapmaker",          "Sovol",              "Thinker X400",       "Tronxy",             "TwoTrees",           
      "UltiMaker",          "Vivedino",           "Volumic",            "Voron",              "Voxelab",            
      "Vzbot",              "Wanhao",             "Z-Bolt"};
@@ -136,8 +136,8 @@ static const std::unordered_map<std::string, std::vector<std::string>> printer_m
                             "RatRig V-Core 4 HYBRID 400",           "RatRig V-Core 4 HYBRID 500",           "RatRig V-Core 4 IDEX 300",             "RatRig V-Core 4 IDEX 300 COPY MODE",   "RatRig V-Core 4 IDEX 300 MIRROR MODE",
                             "RatRig V-Core 4 IDEX 400",             "RatRig V-Core 4 IDEX 400 COPY MODE",   "RatRig V-Core 4 IDEX 400 MIRROR MODE", "RatRig V-Core 4 IDEX 500",             "RatRig V-Core 4 IDEX 500 COPY MODE",
                             "RatRig V-Core 4 IDEX 500 MIRROR MODE"}},
-     {"re3D",              {"re3D Gigabot 4",                       "re3D Gigabot 4 XLT",                   "re3D Terabot 4",
-                            "re3D Gigabot X2",                      "re3D Gigabot X2 XLT",                  "re3D Terabot X2"}},
+    {"re3D",              {"re3D Gigabot 4",                       "re3D Gigabot 4 XLT",                   "re3D Terabot 4",
+                       "re3D GigabotX 2",                      "re3D GigabotX 2 XLT",                  "re3D TerabotX 2"}},
      {"RolohaunDesign",    {"Rook MK1 LDO"}},
      {"SecKit",            {"SecKit SK-Tank", "Seckit Go3"}},
      {"Snapmaker",         {"Snapmaker J1",                 "Snapmaker A250",               "Snapmaker A350",               "Snapmaker A250 Dual",          "Snapmaker A350 Dual",
@@ -966,20 +966,9 @@ wxBoxSizer *CreateFilamentPresetDialog::create_filament_preset_item()
                 auto compatible_printers = preset->config.option<ConfigOptionStrings>("compatible_printers", true);
                 if (!compatible_printers || compatible_printers->values.empty()) {
                     BOOST_LOG_TRIVIAL(info) << __FUNCTION__ << "there is a preset has no compatible printers and the preset name is: " << preset->name;
-                    // If no compatible printers are defined, add all visible printers
-                    for (const std::string& visible_printer : m_visible_printers) {
-                        std::string nozzle = get_printer_nozzle_diameter(visible_printer);
-                        if (nozzle_diameter[nozzle] == 0) {
-                            BOOST_LOG_TRIVIAL(info)
-                                << __FUNCTION__ << " compatible printer nozzle encounter exception and name is: " << visible_printer;
-                            continue;
-                        }
-                        // Add to the list of available printer-preset pairs
-                        printer_name_to_filament_preset.push_back(std::make_pair(visible_printer, preset));
-                        BOOST_LOG_TRIVIAL(info) << __FUNCTION__ << "show compatible printer name: " << visible_printer
-                                                << " and preset name is: " << preset->name;
-                    }
-                    
+                    BOOST_LOG_TRIVIAL(info) << __FUNCTION__
+                                            << " skip preset with empty compatible_printers to avoid cross-printer leakage, preset name: "
+                                            << preset->name;
                     continue;
                 }
                 for (std::string &compatible_printer_name : compatible_printers->values) {
