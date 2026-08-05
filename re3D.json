@@ -102,8 +102,8 @@
                               "sub_path":  "filament/re3D PC.json"
                           },
                           {
-                              "name":  "re3D Greengate rPETG",
-                              "sub_path":  "filament/re3D Greengate rPETG.json"
+                              "name":  "re3D rPETG",
+                              "sub_path":  "filament/re3D rPETG.json"
                           },
                           {
                               "name":  "re3D rPP",
@@ -134,12 +134,12 @@
                               "sub_path":  "filament/re3D PC @0.8 nozzle.json"
                           },
                           {
-                              "name":  "re3D Greengate rPETG @0.8 nozzle",
-                              "sub_path":  "filament/re3D Greengate rPETG @0.8 nozzle.json"
+                              "name":  "re3D rPETG @0.8 nozzle",
+                              "sub_path":  "filament/re3D rPETG @0.8 nozzle.json"
                           },
                           {
-                              "name":  "re3D Greengate rPETG @1.75 nozzle",
-                              "sub_path":  "filament/re3D Greengate rPETG @1.75 nozzle.json"
+                              "name":  "re3D rPETG @1.75 nozzle",
+                              "sub_path":  "filament/re3D rPETG @1.75 nozzle.json"
                           },
                           {
                               "name":  "re3D rPP @0.8 nozzle",

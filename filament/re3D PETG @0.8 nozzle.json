@@ -9,6 +9,9 @@
     "filament_settings_id": [
         "re3D PETG @0.8 nozzle"
     ],
+    "filament_type": [
+        "PETG"
+    ],
     "compatible_printers": [
         "re3D Gigabot 4 0.8 nozzle",
         "re3D Gigabot 4 XLT 0.8 nozzle",
