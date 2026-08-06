@@ -51,5 +51,6 @@
   	"sparse_infill_acceleration": "5000",
   	"internal_solid_infill_acceleration": "5000",
   	"initial_layer_travel_speed": "100%",
-  	"small_perimeter_speed": "50%"
+  	"small_perimeter_speed": "50%",
+	"filename_format": "{input_filename_base}_{\"E\"}{initial_tool}_{filament_type[initial_tool]}_{print_time}.gcode"
 }
