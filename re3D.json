@@ -86,6 +86,10 @@
                               "sub_path":  "filament/fdm_filament_pet.json"
                           },
                           {
+                              "name":  "fdm_filament_pp",
+                              "sub_path":  "filament/fdm_filament_pp.json"
+                          },
+                          {
                               "name":  "fdm_filament_pc",
                               "sub_path":  "filament/fdm_filament_pc.json"
                           },
