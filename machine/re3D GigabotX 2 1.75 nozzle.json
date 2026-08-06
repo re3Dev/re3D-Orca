@@ -7,7 +7,7 @@
 	"machine_tech": "FGF",
 	"model_id": "re3D GBX2",
 	"printer_model": "re3D GigabotX 2",
-	"bed_texture": "Gigabot 4_buildplate_texture.png",
+	"bed_texture": "re3D GigabotX 2_buildplate_texture.svg",
 	"printable_area": [
 		"0x0",
 		"552x0",
